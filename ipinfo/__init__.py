@@ -34,7 +34,10 @@ def main():
 
     for info in ips_info:
         for k in all_keys:
-            print '{}\t'.format(info[k]),
+            try:
+                print '{}\t'.format(info[k]),
+            except KeyError:
+                print '\t'
         print
 
 
