@@ -2,7 +2,7 @@
 pyipinfo
 ========
 
-Use `ipinfo <https://ipinfo.io>` from the command line.
+Use `ipinfo.io <https://ipinfo.io/>`_ from the command line.
 
 Usage
 =====
