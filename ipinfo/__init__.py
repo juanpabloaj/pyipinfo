@@ -37,7 +37,7 @@ def main():
             try:
                 print '{}\t'.format(info[k]),
             except KeyError:
-                print '\t'
+                print '\t',
         print
 
 
