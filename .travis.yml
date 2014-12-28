@@ -5,4 +5,4 @@ install:
   - pip install -r requirements-dev.txt
 script:
   - nosetests --with-cov
-  - flake8 $(git diff HEAD~1 --name-only --diff-filter=AM | grep .py$ )
+  - flake8 $(git diff HEAD~1 --name-only --diff-filter=AM | grep .py$ ) setup.py
