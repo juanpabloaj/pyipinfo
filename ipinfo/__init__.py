@@ -3,6 +3,7 @@
 import requests
 import sys
 from ipinfo.utils import ip_list_from_string
+from ipinfo.utils import is_piped
 
 
 def request_to_ipinfo(ip):
@@ -15,8 +16,12 @@ def request_to_ipinfo(ip):
 
 
 def main():
-    string = sys.stdin.read()
-    ip_list = ip_list_from_string(string)
+
+    if is_piped():
+        input_string = sys.stdin.read()
+        ip_list = ip_list_from_string(input_string)
+    else:
+        ip_list = ['']
 
     if ip_list == []:
         exit()

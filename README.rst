@@ -7,6 +7,12 @@ Use `ipinfo.io <https://ipinfo.io/>`_ from the command line.
 Usage
 =====
 
+Information of local ip
+
+.. code-block:: bash
+
+    pyipinfo
+
 Information of one ip
 
 .. code-block:: bash
