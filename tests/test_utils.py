@@ -11,3 +11,8 @@ class TestUtils(unittest.TestCase):
         ip_list = ['10.10.10.10', '20.20.20.20']
 
         self.assertItemsEqual(ip_list_from_string(string_with_ips), ip_list)
+
+    def test_ip_from_string_without_ips(self):
+        string_with_ips = 'string without ip'
+
+        self.assertItemsEqual(ip_list_from_string(string_with_ips), [])
