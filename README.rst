@@ -2,6 +2,9 @@
 pyipinfo
 ========
 
+.. image:: https://travis-ci.org/juanpabloaj/pyipinfo.svg?branch=master
+    :target: https://travis-ci.org/juanpabloaj/pyipinfo
+
 Use `ipinfo.io <https://ipinfo.io/>`_ from the command line.
 
 Usage
