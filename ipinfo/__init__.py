@@ -40,7 +40,7 @@ def main():
     for info in ips_info:
         for k in all_keys:
             try:
-                print '{}\t'.format(info[k]),
+                print u'{}\t'.format(info[k]),
             except KeyError:
                 print '\t',
         print
