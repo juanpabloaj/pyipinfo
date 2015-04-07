@@ -13,7 +13,7 @@ def read(*paths):
 
 setup(
     name="pyipinfo",
-    version="0.1.0",
+    version="0.1.1",
     description="ipinfo.io in the command line",
     long_description=(read('README.rst')),
     url="https://github.com/juanpabloaj/pyipinfo",
