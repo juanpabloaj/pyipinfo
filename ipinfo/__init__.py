@@ -1,7 +1,8 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
-import requests
+from __future__ import print_function
+from __future__ import absolute_import
 import sys
+import requests
 from ipinfo.utils import ip_list_from_string
 from ipinfo.utils import is_piped
 
@@ -38,12 +39,13 @@ def main():
     ]
 
     for info in ips_info:
+        text = ''
         for k in all_keys:
             try:
-                print u'{}\t'.format(info[k]),
+                text += u'{}\t'.format(info[k])
             except KeyError:
-                print '\t',
-        print
+                text += '\t'
+        print(text)
 
 
 if __name__ == '__main__':

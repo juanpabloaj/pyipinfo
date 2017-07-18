@@ -14,19 +14,19 @@ Information of local ip
 
 .. code-block:: bash
 
-    pyipinfo
+    ipinfo
 
 Information of one ip
 
 .. code-block:: bash
 
-    echo "ip" | pyipinfo
+    echo "ip" | ipinfo
 
 Information of each ip in a file or output pipe
 
 .. code-block:: bash
 
-    cat requests.log | pyipinfo
+    cat requests.log | ipinfo
 
 Installation
 ============
