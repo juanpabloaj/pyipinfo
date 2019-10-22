@@ -17,7 +17,7 @@ setup(
     description="ipinfo.io in the command line",
     long_description=(read('README.rst')),
     url="https://github.com/juanpabloaj/pyipinfo",
-    install_requires=['requests==2.5.1'],
+    install_requires=['requests==2.20.0'],
     license='MIT',
     author="JuanPablo AJ",
     author_email="jpabloaj@gmail.com",
